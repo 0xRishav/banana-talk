@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+.body-wrapper{
+    background-image: url(./assets/minions-background.jpg);
+    height: 95vh;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.44em;
+    margin: 10px 10px;
+}
+h3{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.235em;
+    margin: 10px 10px;
+}
+mark{
+    background-color: #F9D66E;
+    border-radius: 0.2rem;
+}
+.txt-input{
+    outline: none;
+    width: 50%;
+    margin: 30px 10px;
+}
+
+
+button{
+    background: #FBD66E;
+    box-shadow: 0px 8px 16px rgba(251, 214, 110, 0.64);
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+#output{
+    max-width: 50%;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .body-wrapper{
+        background-position: bottom;
+    }
+}
+@media (max-width: 540px) {
+    .txt-input{
+        outline: none;
+        width: 80%;
+        margin-left: 10px;
+        /* margin: auto; */
+    }
+}
+
+caption{
+    
+    
+    height: 5vh;
+    position: fixed;
+}
+footer{
+    text-align: center;
+    background-color: #F9D66E;
+}
