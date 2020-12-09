@@ -1,11 +1,11 @@
 var translateBtn = document.querySelector('.translate-btn');
 
 var inputTxt = document.querySelector('.txt-input');
-
 var outputDiv = document.querySelector('#output');
 
+var corsUrl = 'https://cors-anywhere.herokuapp.com/';
 
-var serverurl = "https://api.funtranslations.com/translate/minion.json";
+var serverurl = "https://cors-anywhere.herokuapp.com/https://api.funtranslations.com/translate/minion.json";
 
 
 // 
